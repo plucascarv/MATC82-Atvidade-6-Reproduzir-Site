@@ -1,0 +1,1 @@
+Neste repositório armazeno a versão da atividade 6 da matéria MATC82 - Sistemas Web na Universidade Federal da Bahia, onde era pedido para reproduzir o front-end da landing page de algum site a escolha do aluno. No meu caso, a escolha foi "open.spotify.com". Apenas foram utilizados HTML e CSS.
