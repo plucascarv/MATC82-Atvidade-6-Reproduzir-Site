@@ -1,0 +1,20 @@
+.bio-select {
+  display: flex;
+  gap: 12px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.bio-select span {
+  background: #1f1f1f;
+  color: white;
+  padding: 12px;
+  border-radius: 18px;
+  font-size: .875rem;
+  cursor: pointer;
+}
+
+.bio-select span:hover {
+  background-color: #2a2a2a;
+}

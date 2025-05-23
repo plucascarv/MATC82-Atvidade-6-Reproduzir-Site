@@ -1,0 +1,26 @@
+.header, .header-center, .header-end, .end-app a, .end-social {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 12px 8px 0px 30px;
+  box-sizing: border-box;
+}
+
+/* IMAGE SIZES*/
+.header-logo, .perfil img {
+  width: 32px;
+  height: 32px;
+}
+
+.center-home svg, .search-button svg, .search-navegar svg {
+  width: 24px;
+  height: 24px;
+}
+
+.app-img svg, .novidades svg, .amigos svg {
+  width: 16px;
+  height: 16px;
+}

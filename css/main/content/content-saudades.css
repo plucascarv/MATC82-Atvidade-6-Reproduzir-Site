@@ -1,0 +1,55 @@
+.header-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.header-article h1 {
+  color: white;
+  font-size: 1.35rem;
+  cursor: pointer;
+}
+
+.header-article h1:hover {
+  text-decoration: underline;
+}
+
+.header-article span {
+  font-size: .875rem;
+}
+
+.list-article {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  gap: 24px;
+}
+
+.list-article-item {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.list-article-item:hover {
+  background: #2a2a2a;
+  border-radius: 8px;
+}
+
+.list-article-item h2 {
+  color: white;
+  font-size: .9rem;
+  max-width: 20ch;
+}
+
+.list-article-item span {
+  font-size: .75rem;
+}
+
+.list-article-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 8px;
+  padding-bottom: 8px;
+}

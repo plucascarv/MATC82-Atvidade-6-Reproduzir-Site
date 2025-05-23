@@ -1,0 +1,35 @@
+.bio-extras {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.bio-filter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #b3b3b3;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.bio-filter:hover {
+  color: #fff;
+}
+
+.bio-search svg {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.bio-search svg:hover {
+  background: #2a2a2a;
+  border-radius: 50%;
+  fill: #fff;
+}
+
+.bio-search svg, .bio-filter svg {
+  width: 16px;
+  height: 16px;
+}

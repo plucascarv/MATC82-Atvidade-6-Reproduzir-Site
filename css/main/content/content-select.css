@@ -1,0 +1,29 @@
+.content-select {
+  display: flex;
+  gap: 12px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  max-height: 64px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.content-select span {
+  background: #1f1f1f;
+  color: white;
+  padding: 12px;
+  border-radius: 18px;
+  font-size: .875rem;
+  cursor: pointer;
+  max-height: 32px;
+}
+
+.content-select span:first-child {
+  background-color: #fff;
+  color: #1f1f1f;
+}
+
+.content-select span:hover {
+  background-color: #2a2a2a;
+}

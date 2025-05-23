@@ -1,0 +1,31 @@
+.content-recentes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: start;
+  gap: 8px;
+}
+
+.content-recentes h2 {
+  color: white;
+  font-size: .875rem;
+}
+
+.recentes-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #1f1f1f;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.recentes-item:hover {
+  background-color: #2a2a2a;
+}
+
+.recentes-item img {
+  height: 48px;
+  width: 48px;
+  object-fit: cover;
+  border-radius: 8px 0px 0px 8px;
+}

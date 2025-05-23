@@ -1,0 +1,22 @@
+@import "./global.css";
+
+/* Header */
+@import "./header/header.css";
+@import "./header/center.css";
+@import "./header/end.css";
+
+/* Main */
+@import "./main/main.css";
+
+/* Main - Biblioteca */
+@import "./main/biblioteca/biblioteca.css";
+@import "./main/biblioteca/bio-header.css";
+@import "./main/biblioteca/bio-select.css";
+@import "./main/biblioteca/bio-extras.css";
+@import "./main/biblioteca/bio-albuns.css";
+
+/* Main - Content */
+@import "./main/content/content.css";
+@import "./main/content/content-select.css";
+@import "./main/content/content-saudades.css";
+@import "./main/content/content-recentes.css";

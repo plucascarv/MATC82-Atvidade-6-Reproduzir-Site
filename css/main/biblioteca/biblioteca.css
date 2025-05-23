@@ -1,0 +1,9 @@
+.bio {
+  background: #121212;
+  border-radius: 12px;
+  padding: 12px 20px 180px 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  width: 100%;
+}

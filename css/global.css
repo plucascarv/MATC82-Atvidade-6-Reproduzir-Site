@@ -1,0 +1,25 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body, nav, button, p, a, h1, span, h2 {
+  padding: 0px;
+  margin: 0px;
+}
+
+button, input {
+  background: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: #000;
+  color: #b3b3b3;
+  font-family: "Montserrat", sans-serif;
+}

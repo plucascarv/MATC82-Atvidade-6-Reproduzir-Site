@@ -1,0 +1,30 @@
+.header-end {
+  gap: 36px;
+}
+
+.end-app a {
+  gap: 12px;
+}
+
+.end-app {
+  font-size: .875rem;
+  line-height: 1;
+}
+
+.end-app:hover {
+  color: #fff;
+}
+
+.end-social {
+  gap: 16px;
+}
+
+.novidades svg:hover, .novidades path:hover, .amigos svg:hover {
+  fill: #fff;
+}
+
+.perfil img {
+  background: #1f1f1f;
+  padding: 6px;
+  border-radius: 50%;
+}
